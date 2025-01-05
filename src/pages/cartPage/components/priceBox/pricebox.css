@@ -1,0 +1,10 @@
+.deliver-box {
+  border-top: 1px solid var(--light-gray);
+  padding-top: 1rem;
+}
+fieldset {
+  border: none;
+}
+fieldset label {
+  padding: 1rem;
+}

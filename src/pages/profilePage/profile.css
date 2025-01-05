@@ -1,0 +1,75 @@
+.profile-section {
+  min-height: 70vh;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.user-info-box {
+  box-shadow: var(--main-box-shadow);
+  height: fit-content;
+  width: 30rem;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+
+  height: fit-content;
+  border-bottom: 2px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+.tabs p {
+  padding: 0.6rem 1rem;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+.tabs p:hover {
+  background-color: black;
+  color: white;
+}
+
+.active-tab {
+  background-color: black;
+  color: white;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 80%;
+}
+.user-info div {
+  width: 100%;
+}
+
+.info-content {
+  padding-top: 1rem;
+  display: flex;
+}
+.info-content span {
+  font-weight: 500;
+  padding-right: 5rem;
+}
+.profile-logout-btn {
+  margin-top: 2rem;
+}
+.address-box p {
+  padding-bottom: 0.5rem;
+}
+
+.add-address {
+  cursor: pointer;
+  padding-top: 1rem;
+}
+.add-address .text-lg {
+  margin-top: 1rem;
+}
+.edit-address .btn {
+  width: 30%;
+  margin-top: 1rem;
+}

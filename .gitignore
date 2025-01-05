@@ -1,0 +1,16 @@
+# Exclude system files and directories, the gitignore file is the only addded by me rohit. to revert to original, just remove this
+.DS_Store
+.Trash/
+.zsh_sessions/
+.bash_history
+.npm/
+.cache/
+Library/
+Documents/
+Downloads/
+Music/
+Pictures/
+
+# Ignore all hidden files except .gitignore
+.*
+!.gitignore

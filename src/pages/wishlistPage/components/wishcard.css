@@ -1,0 +1,19 @@
+/* cancle badge */
+.right-badge {
+  right: 0;
+  background-color: transparent;
+  box-shadow: none;
+  color: black;
+  font-size: 1.4rem;
+}
+.wishlist-box {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.wishlist-box-placeholder {
+  margin-top: 6rem;
+}
+.place-text {
+  padding: 1rem;
+}

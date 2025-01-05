@@ -1,0 +1,29 @@
+.single-product {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.img-box {
+  height: 30rem;
+  box-shadow: var(--main-box-shadow);
+}
+.img-box img {
+  object-fit: cover;
+}
+.product-content {
+  padding-top: 2rem;
+}
+.product-content p {
+  padding-bottom: 1rem;
+}
+.single-box {
+  width: 70vw;
+}
+.action-btn-box {
+  padding-top: 1rem;
+}
+.action-btn-box button {
+  margin-right: 6px;
+}

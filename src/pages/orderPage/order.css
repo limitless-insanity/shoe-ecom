@@ -1,0 +1,20 @@
+.order-Box {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-address {
+  width: 22rem;
+  height: 8rem;
+  box-shadow: var(--main-box-shadow);
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+.order-address p {
+  padding: 0.2rem;
+  text-align: left;
+}

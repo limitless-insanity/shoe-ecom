@@ -1,0 +1,22 @@
+.card-btn_footer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 0.6rem;
+}
+.rating-comp {
+  width: 4rem;
+  margin: 10px 0 0 0;
+}
+.card-component:hover {
+  transform: scale(1.07);
+  transition: 1s;
+}
+.card-comp-contant {
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .card-component {
+    justify-content: space-between;
+  }
+}

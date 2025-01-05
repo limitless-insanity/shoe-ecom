@@ -1,0 +1,16 @@
+.card-comp-contant .btn {
+  margin: 8px 4px 8px 0;
+}
+.card-component-cart {
+  box-shadow: var(--main-box-shadow);
+}
+.empty-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.emptybox-text {
+  padding: 1rem;
+}
